@@ -1,0 +1,84 @@
+{
+  "package_name": "xiaojiao_teacher_jarvis_workbench_concept_contract_1000A",
+  "stage_code": "1000A_XIAOJIAO_TEACHER_JARVIS_WORKBENCH_CONCEPT_CONTRACT",
+  "final_status": "XIAOJIAO_TEACHER_JARVIS_WORKBENCH_CONCEPT_CONTRACT_PASS",
+  "generated_at": "2026-06-12T09:30:00+08:00",
+  "zip_path": "docs/audit_packages/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A.zip",
+  "zip_entry_count": 9,
+  "manifest_minus_zip": [],
+  "zip_minus_manifest": [],
+  "zip_entries": [
+    "docs/handoff/xiaojiao_teacher_jarvis_workbench_1000A_execution_handoff_20260612.md",
+    "docs/handoff/teacher_jarvis_workbench_planning_notes_1000_20260612.md",
+    "docs/foundation/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A.md",
+    "docs/foundation/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A.json",
+    "docs/audit/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A_report.md",
+    "docs/audit/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A_result.json",
+    "docs/audit/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A_checklist.json",
+    "docs/audit_packages/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A_manifest.json",
+    "scripts/validate_xiaojiao_teacher_jarvis_workbench_concept_contract_1000A.py"
+  ],
+  "entries": [
+    {
+      "path": "docs/handoff/xiaojiao_teacher_jarvis_workbench_1000A_execution_handoff_20260612.md",
+      "size": 16178,
+      "sha256": "F0B8682AF016133893F2DAB48954F41D55AE1E1C0FB2F968FCE914C0DAF5762B"
+    },
+    {
+      "path": "docs/handoff/teacher_jarvis_workbench_planning_notes_1000_20260612.md",
+      "size": 17399,
+      "sha256": "AA840EE77C4818C56E3AEC72DA322981255212B9C8B110C93AE4041994F8468F"
+    },
+    {
+      "path": "docs/foundation/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A.md",
+      "size": 15381,
+      "sha256": "9E23AAE309FEC48DF37B6E7280E4BCC708EE5D5438039337A5262CECDE295337"
+    },
+    {
+      "path": "docs/foundation/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A.json",
+      "size": 13348,
+      "sha256": "BFE9A610E3D3E887E210C22A25572F46EF7EAC3DD3C03BC23BA076FC6D7EFDEA"
+    },
+    {
+      "path": "docs/audit/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A_report.md",
+      "size": 7925,
+      "sha256": "644E96C895E6A8F69FCCFE36B67F4F8118CE892FECFD6756DB3A1A0A21BDEB40"
+    },
+    {
+      "path": "docs/audit/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A_result.json",
+      "size": 3496,
+      "sha256": "59597970A8E872EFFEFC54797BE3A95A576FE2027FB51E5C5C4B7F051E897009"
+    },
+    {
+      "path": "docs/audit/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A_checklist.json",
+      "size": 5347,
+      "sha256": "82EBDA779FCE8E179588F48FAF4BC79D83306C1D0D569553A415D5D7D428A517"
+    },
+    {
+      "path": "docs/audit_packages/xiaojiao_teacher_jarvis_workbench_concept_contract_1000A_manifest.json",
+      "size": null,
+      "sha256": "SELF_REFERENTIAL",
+      "sha256_policy": "manifest self hash is intentionally not materialized because the manifest contains its own metadata"
+    },
+    {
+      "path": "scripts/validate_xiaojiao_teacher_jarvis_workbench_concept_contract_1000A.py",
+      "size": 15167,
+      "sha256": "701F7BCB7F0F5D519F99E39CF2590B7F02D18D8AD1DE362368C1801740DEDBDF"
+    }
+  ],
+  "boundary": {
+    "concept_contract_only": true,
+    "database_written": false,
+    "memory_written": false,
+    "feishu_written": false,
+    "formal_export_created": false,
+    "classroom_student_runtime_connected": false,
+    "provider_called": false,
+    "frontend_runtime_modified": false,
+    "backend_runtime_modified": false,
+    "old_sealed_stage_modified": false,
+    "full_repo_blind_rename_performed": false,
+    "teacher_facing_jarvis_wording_introduced": false,
+    "teacher_facing_xiaobei_wording_introduced": false
+  }
+}
