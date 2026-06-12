@@ -1,0 +1,126 @@
+{
+  "stage_code": "1000D_AGENT_ACTION_POLICY_AND_WORK_STATE_CONTRACT",
+  "final_status_target": "XIAOJIAO_AGENT_ACTION_POLICY_AND_WORK_STATE_CONTRACT_PASS",
+  "items": [
+    {
+      "id": "stage_identity",
+      "label": "stage identity",
+      "pass": true
+    },
+    {
+      "id": "source_handoffs",
+      "label": "source handoffs",
+      "pass": true
+    },
+    {
+      "id": "product_identity",
+      "label": "product identity",
+      "pass": true
+    },
+    {
+      "id": "naming_policy",
+      "label": "naming policy",
+      "pass": true
+    },
+    {
+      "id": "legacy_namespace_policy",
+      "label": "legacy namespace policy",
+      "pass": true
+    },
+    {
+      "id": "Jarvis_internal_metaphor_only",
+      "label": "Jarvis internal metaphor only",
+      "pass": true
+    },
+    {
+      "id": "main_document_boundary",
+      "label": "main document boundary",
+      "pass": true
+    },
+    {
+      "id": "weekly_work_graph_relation",
+      "label": "weekly work graph relation",
+      "pass": true
+    },
+    {
+      "id": "stage-specific_contract",
+      "label": "stage-specific contract",
+      "pass": true
+    },
+    {
+      "id": "validation_focus",
+      "label": "validation focus",
+      "pass": true
+    },
+    {
+      "id": "prohibited_patterns",
+      "label": "prohibited patterns",
+      "pass": true
+    },
+    {
+      "id": "future_milestones",
+      "label": "future milestones",
+      "pass": true
+    },
+    {
+      "id": "no_UI_implementation",
+      "label": "no UI implementation",
+      "pass": true
+    },
+    {
+      "id": "no_frontend_page_modification",
+      "label": "no frontend page modification",
+      "pass": true
+    },
+    {
+      "id": "no_runtime_connection",
+      "label": "no runtime connection",
+      "pass": true
+    },
+    {
+      "id": "no_provider_model_call",
+      "label": "no provider/model call",
+      "pass": true
+    },
+    {
+      "id": "no_database_write",
+      "label": "no database write",
+      "pass": true
+    },
+    {
+      "id": "no_memory_write",
+      "label": "no memory write",
+      "pass": true
+    },
+    {
+      "id": "no_Feishu_write",
+      "label": "no Feishu write",
+      "pass": true
+    },
+    {
+      "id": "no_formal_export",
+      "label": "no formal export",
+      "pass": true
+    },
+    {
+      "id": "no_classroom_student_runtime",
+      "label": "no classroom student runtime",
+      "pass": true
+    },
+    {
+      "id": "no_old_sealed-stage_modification",
+      "label": "no old sealed-stage modification",
+      "pass": true
+    },
+    {
+      "id": "no_blind_rename",
+      "label": "no blind rename",
+      "pass": true
+    },
+    {
+      "id": "manifest___ZIP_alignment",
+      "label": "manifest / ZIP alignment",
+      "pass": true
+    }
+  ]
+}
