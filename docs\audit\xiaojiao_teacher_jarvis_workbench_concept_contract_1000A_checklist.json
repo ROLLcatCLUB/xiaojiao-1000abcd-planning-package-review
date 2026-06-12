@@ -1,0 +1,156 @@
+{
+  "stage_code": "1000A_XIAOJIAO_TEACHER_JARVIS_WORKBENCH_CONCEPT_CONTRACT",
+  "final_status_target": "XIAOJIAO_TEACHER_JARVIS_WORKBENCH_CONCEPT_CONTRACT_PASS",
+  "items": [
+    {
+      "id": "stage_identity",
+      "status": "PASS",
+      "evidence": "Contract markdown and JSON define stage_code, stage_name, final_status_target, and stage_type=concept_contract_only."
+    },
+    {
+      "id": "product_identity",
+      "status": "PASS",
+      "evidence": "Contract defines 小教智能体 / Xiaojiao Agent as the product identity."
+    },
+    {
+      "id": "naming_policy",
+      "status": "PASS",
+      "evidence": "Contract requires new teacher-facing copy to use 小教 and forbids blind repository rename."
+    },
+    {
+      "id": "legacy_namespace_policy",
+      "status": "PASS",
+      "evidence": "Contract marks 小备 / Xiaobei / xiaobei as legacy internal namespace without forcing old package rename."
+    },
+    {
+      "id": "internal_jarvis_metaphor_policy",
+      "status": "PASS",
+      "evidence": "Contract limits Jarvis to internal planning metaphor and forbids teacher-facing Jarvis copy."
+    },
+    {
+      "id": "six_core_concepts",
+      "status": "PASS",
+      "evidence": "Unified Xiaojiao Agent, Agent-led Progressive Workspace, Dynamic Work Panel, Work Object, Work Action, and Work State are defined in English and Chinese."
+    },
+    {
+      "id": "two_supporting_concepts",
+      "status": "PASS",
+      "evidence": "Work View Composer / 工作视图组合器 and Assistant Surface / 小教交互表层 are defined."
+    },
+    {
+      "id": "assistant_surface_states",
+      "status": "PASS",
+      "evidence": "collapsed, suggestion_bar, mini_chat_overlay, and work_record_drawer are required states."
+    },
+    {
+      "id": "dynamic_work_panel_envelope",
+      "status": "PASS",
+      "evidence": "Contract defines all stable Dynamic Work Panel envelope fields."
+    },
+    {
+      "id": "panel_modes",
+      "status": "PASS",
+      "evidence": "empty, intake, draft, working, and review modes are defined."
+    },
+    {
+      "id": "work_object_contract",
+      "status": "PASS",
+      "evidence": "Work Object minimum fields are defined."
+    },
+    {
+      "id": "work_action_contract",
+      "status": "PASS",
+      "evidence": "Work Action types and minimum fields are defined."
+    },
+    {
+      "id": "work_state_contract",
+      "status": "PASS",
+      "evidence": "Work State minimum fields and incremental-turn principle are defined."
+    },
+    {
+      "id": "teacher_workbench_positioning",
+      "status": "PASS",
+      "evidence": "Contract positions teaching planning as teacher daily workbench / teacher home focused on pre-class professional work."
+    },
+    {
+      "id": "pre_class_work_chain",
+      "status": "PASS",
+      "evidence": "Contract includes teacher role profile through classroom preparation package chain."
+    },
+    {
+      "id": "weekly_work_graph_relation",
+      "status": "PASS",
+      "evidence": "Contract states 周工作图谱 does not replace 学期周历表 / semester_weekly_calendar."
+    },
+    {
+      "id": "today_work_item_definition",
+      "status": "PASS",
+      "evidence": "Contract lists required Today Work Item types and minimum fields."
+    },
+    {
+      "id": "quickclass_boundary",
+      "status": "PASS",
+      "evidence": "Contract separates Xiaojiao pre-class work from QuickClass classroom execution and learning analytics."
+    },
+    {
+      "id": "prohibited_patterns",
+      "status": "PASS",
+      "evidence": "Contract defines 24 prohibited patterns, exceeding the minimum of 20."
+    },
+    {
+      "id": "future_milestones",
+      "status": "PASS",
+      "evidence": "Contract includes 1000B, 1000C, 1000D, and 1000E milestones."
+    },
+    {
+      "id": "no_ui_implementation",
+      "status": "PASS",
+      "evidence": "1000A creates documentation/schema/audit package only; no frontend files are part of this package."
+    },
+    {
+      "id": "no_runtime_change",
+      "status": "PASS",
+      "evidence": "No runtime files are included; runtime_change_allowed=false."
+    },
+    {
+      "id": "no_provider_call",
+      "status": "PASS",
+      "evidence": "provider_call_allowed=false and provider_called=false."
+    },
+    {
+      "id": "no_database_write",
+      "status": "PASS",
+      "evidence": "database_write_allowed=false and database_written=false."
+    },
+    {
+      "id": "no_memory_write",
+      "status": "PASS",
+      "evidence": "memory_write_allowed=false and memory_written=false."
+    },
+    {
+      "id": "no_feishu_write",
+      "status": "PASS",
+      "evidence": "feishu_write_allowed=false and feishu_written=false."
+    },
+    {
+      "id": "no_formal_export",
+      "status": "PASS",
+      "evidence": "formal_export_allowed=false and formal_export_created=false."
+    },
+    {
+      "id": "no_classroom_student_runtime",
+      "status": "PASS",
+      "evidence": "classroom_student_runtime_allowed=false and classroom_student_runtime_connected=false."
+    },
+    {
+      "id": "no_blind_rename",
+      "status": "PASS",
+      "evidence": "full_repo_blind_rename_allowed=false and full_repo_blind_rename_performed=false."
+    },
+    {
+      "id": "manifest_zip_alignment",
+      "status": "PASS",
+      "evidence": "Validator checks manifest_minus_zip=[] and zip_minus_manifest=[]."
+    }
+  ]
+}
